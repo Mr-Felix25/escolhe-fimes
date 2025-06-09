@@ -1,7 +1,7 @@
 html, body {
   margin: 30px;
   padding: 0;
-  background-color: rgb(200,200,200);
+  background-color: rgb(250,100,100);
 }
 
 .flex-container {
@@ -9,6 +9,7 @@ html, body {
   flex-wrap:wrap;
   justify-content: center;
   background-color: DodgerBlue;
+  background-color: rgb(200,200,200);
 }
 
 .flex-container > div {
@@ -21,7 +22,7 @@ html, body {
 }
 
 canvas {
-  display: block;
+  display: flex;
 }
 
 h2 {
