@@ -1,35 +1,52 @@
-html, body {
-  margin: 30px;
-  padding: 0;
-  background-color: rgb(250,100,100);
+html {
+  margin: 20px;
+  padding: 10px;
+  background-color: red ;
 }
 
-.flex-container {
+body {
+   margin: 30px;
+   padding: 20px;
+   background-color: blue ;
+}
+
+main {
   display: flex;
-  flex-wrap:wrap;
-  justify-content: center;
-  background-color: DodgerBlue;
-  background-color: rgb(200,200,200);
+  justify-content: center; 
+  background-color: yellow;
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
+ div {
+  background-color: white;
+  width: 800px;
+  margin: 20px;
   text-align: center;
-  line-height: 75px;
   font-size: 30px;
 }
 
+.title {
+  background-color: PaleGreen;
+}
+
+.sub-title {
+   background-color: SeaShell;
+}
+
 canvas {
-  display: flex;
+   margin: 10px;
+   padding: 10px;
+  
+}
+
+h1 {
+  color: purple;
 }
 
 h2 {
-  color: darkblue;
+  color: LawnGreen;
+  text-align: center;
 }
 
 span {
-  color: darkmagenta;
-  
+  color: violet;
 }
