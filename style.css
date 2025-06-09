@@ -1,52 +1,52 @@
 html {
-  margin: 20px;
-  padding: 10px;
-  background-color: red ;
+margin: 20px;
+padding: 10px;
+background-color: red ;
 }
 
 body {
-   margin: 30px;
-   padding: 20px;
-   background-color: blue ;
+margin: 30px;
+padding: 20px;
+background-color: blue ;
 }
 
 main {
-  display: flex;
-  justify-content: center; 
-  background-color: yellow;
+display: flex;
+justify-content: center; /* Centraliza horizontalmente */
+background-color: yellow;
 }
 
- div {
-  background-color: white;
-  width: 800px;
-  margin: 20px;
-  text-align: center;
-  font-size: 30px;
+div {
+background-color: white;
+width: 800px;
+margin: 20px;
+text-align: center;
+font-size: 30px;
 }
 
 .title {
-  background-color: PaleGreen;
+background-color: PaleGreen;
 }
 
 .sub-title {
-   background-color: SeaShell;
+background-color: SeaShell;
 }
 
 canvas {
-   margin: 10px;
-   padding: 10px;
-  
+margin: 10px;
+padding: 10px;
+
 }
 
 h1 {
-  color: purple;
+color: purple;
 }
 
 h2 {
-  color: LawnGreen;
-  text-align: center;
+color: LawnGreen;
+text-align: center;
 }
 
 span {
-  color: violet;
+color: violet;
 }
